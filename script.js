@@ -4,11 +4,11 @@ window.addEventListener('load', () => {
 
   function enable() {
     ns.enable()
-    btn.innerText = 'Desativar NoSleep.js'
+    btn.innerText = 'Ativar NoSleep.js'
   }
   function disable() {
     ns.disable()
-    btn.innerText = 'Ativar NoSleep.js'
+    btn.innerText = 'Desativar NoSleep.js'
   }
 
   btn.addEventListener('click', () => {
