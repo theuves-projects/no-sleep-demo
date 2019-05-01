@@ -12,7 +12,7 @@ window.addEventListener('load', () => {
   }
 
   btn.addEventListener('click', () => {
-    btn.classList.contains('is-enable') ? enable() : disable()
+    btn.classList.contains('is-enable') ? disable() : enable()
     btn.classList.toggle('is-enable')
   })
 })
