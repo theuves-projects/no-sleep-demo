@@ -15,12 +15,4 @@ window.addEventListener('load', () => {
       btn.classList.add('is-enable')
     }
   })
-
-  /**/ const event = new MouseEvent('click', {
-  /**/  view: window,
-  /**/  bubbles: true,
-  /**/  cancelable: true
-  /**/ });
-
-  /**/ btn.dispatchEvent(event)
 })
